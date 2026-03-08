@@ -8,6 +8,7 @@ ldd /opt/aok/aok | grep Qt6
 echo ""
 
 # testing line
+# two testing line
 
 echo "2. Gumbo Library:"
 ldd /opt/aok/aok | grep gumbo
