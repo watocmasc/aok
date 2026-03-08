@@ -7,6 +7,8 @@ echo "1. Qt6 Libraries:"
 ldd /opt/aok/aok | grep Qt6
 echo ""
 
+# testing line
+
 echo "2. Gumbo Library:"
 ldd /opt/aok/aok | grep gumbo
 echo ""
@@ -29,3 +31,4 @@ echo ""
 
 echo "7. ldconfig Cache:"
 ldconfig -p | grep -E "(Qt6|gumbo)" | head -10
+# test
